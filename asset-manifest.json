@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/discover-challenge/static/css/main.c930bdd6.css",
+    "main.js": "/discover-challenge/static/js/main.aebb4f8f.js",
+    "static/js/453.ba0a71ca.chunk.js": "/discover-challenge/static/js/453.ba0a71ca.chunk.js",
+    "static/media/Rectangle.svg": "/discover-challenge/static/media/Rectangle.8696bcb8b507a6b64bf7.svg",
+    "static/media/EARTH.svg": "/discover-challenge/static/media/EARTH.4ee393712c25f637d56b46d4b582f8e7.svg",
+    "static/media/rocket.svg": "/discover-challenge/static/media/rocket.bf2dbb7c0c33ada062ba83af3725edbe.svg",
+    "static/media/Rectangle_04.svg": "/discover-challenge/static/media/Rectangle_04.d4ec0c9a3dd19a97a3d8.svg",
+    "static/media/Rectangle_02.svg": "/discover-challenge/static/media/Rectangle_02.b7626d7f869c2ce26116.svg",
+    "static/media/Rectangle_01.svg": "/discover-challenge/static/media/Rectangle_01.9e6cf77c96b5cddc68bf.svg",
+    "static/media/Rectangle_03.svg": "/discover-challenge/static/media/Rectangle_03.6a2faa4c8dceab33d5cf.svg",
+    "static/media/LOGO.svg": "/discover-challenge/static/media/LOGO.abb7e9ca6e1d2224fa9253c60ef4cfb6.svg",
+    "index.html": "/discover-challenge/index.html",
+    "main.c930bdd6.css.map": "/discover-challenge/static/css/main.c930bdd6.css.map",
+    "main.aebb4f8f.js.map": "/discover-challenge/static/js/main.aebb4f8f.js.map",
+    "453.ba0a71ca.chunk.js.map": "/discover-challenge/static/js/453.ba0a71ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c930bdd6.css",
+    "static/js/main.aebb4f8f.js"
+  ]
+}
