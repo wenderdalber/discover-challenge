@@ -3,6 +3,7 @@ import './App.scss';
 import LOGO from './assets/images/LOGO.svg';
 import EARTH_SVG from './images/EARTH.svg';
 import RocketIcon from './images/rocket.svg';
+import { Button } from './components/Button';
 
 function App() {
 // State to control the visibility of the hamburger menu
@@ -14,30 +15,30 @@ function App() {
 
   return (
     <div className="App">
-    <header className="header">
-      <div className="header__container">
-        <img src={LOGO} alt="Logo da empresa" className="header__logo" />
-        <nav className="header__nav">
-          <a href="#home" className="header__link">Home</a>
-          <a href="#products" className="header__link">Products</a>
-          <a href="#cart" className="header__icon">🛒</a>
-        </nav>
-      </div>
-    </header>
+      <div className='container'>
+        <header className="header">
+          <div className="header__container">
+            <img src={LOGO} alt="Logo da empresa" className="header__logo" />
+            <nav className="header__nav">
+              <a href="#home" className="header__link">Home</a>
+              <a href="#products" className="header__link">Products</a>
+              <a href="#cart" className="header__icon">🛒</a>
+            </nav>
+          </div>
+        </header>
 
 
       <section className="hero" id="home">
         <div className="hero__content">
-          <h1 className="hero__title">Discover the vast expanses of space</h1>
-          <p className="hero__subtitle">Where the possibilities are endless!</p>
-          <button className="hero__button">Learn more</button>
+          <h1 className="hero__title">Discover the vast expanses of <span className="hero__title--highlighted">space</span></h1>
+          <p className="hero__subtitle">Where the possibilities are <span className="hero__subtitle--highlighted">endless!</span></p>
+          <Button className="hero__button">Learn more</Button>
         </div>
         <div className="hero__image-container">
           <img
             src={EARTH_SVG}
             alt="Stylized globe"
             className="hero__image"
-            onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/300x300/4B8BBE/FFFFFF?text=Erro" }}
           />
         </div>
       </section>
@@ -94,6 +95,7 @@ function App() {
         <img src={RocketIcon} alt="Rocket icon" className="footer__icon" />
         <p className="footer__text">Exciting space adventure!</p>
       </footer>
+    </div>
     </div>
   );
 }
