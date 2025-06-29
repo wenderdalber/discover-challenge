@@ -24,10 +24,7 @@ function App() {
               <a href="#home" className="header__link">Home</a>
               <a href="#products" className="header__link">Products</a>
               <a href="#cart" className="header__icon">
-                <img
-            src={CartIcon}
-            alt="Cart Icon"
-            />
+                <div className="cart-icon" />
               </a>
             </nav>
           </div>
@@ -87,15 +84,24 @@ function App() {
         </div>
       </section>
 
-      <section className="journey-description" id="company">
-        <h2 className="journey-description__title">Embark on a space journey</h2>
-        <p className="journey-description__text">
-          Travelling into space is one of the most exciting and unforgettable adventures that can change your life forever. And if you have ever dreamed of exploring stars, planets and galaxies, then our company is ready to help you realize this dream. We offer a unique experience that will allow you to go on a space journey and see all the secrets of the universe. We guarantee that every moment in space will be filled with incredible impressions, excitement and new discoveries. Our team of professionals takes care of your safety and comfort so that you can fully enjoy your adventure in space. We offer various options for space excursions.
-        </p>
-        <div className="journey-description__button-wrapper">
-          <button className="journey-description__button">Read more</button>
-        </div>
-      </section>
+<section className="journey-description" id="company">
+  <h2 className="journey-description__title">Embark on a space journey</h2>
+
+  <input type="checkbox" id="readmore-toggle" className="readmore-checkbox" />
+  
+  <p className="journey-description__text">
+    Travelling into space is one of the most exciting and unforgettable adventures that can change your life forever. 
+    And if you have ever dreamed of exploring stars, planets and galaxies, then our company is ready to help you realize this dream. 
+    <span className="extra-text">
+      {' '}We offer a unique experience that will allow you to go on a space journey and see all the secrets of the universe. 
+      We guarantee that every moment in space will be filled with incredible impressions, excitement and new discoveries. 
+      Our team of professionals takes care of your safety and comfort so that you can fully enjoy your adventure in space. 
+      We offer various options for space excursions.
+    </span>
+  </p>
+
+  <label htmlFor="readmore-toggle" className="journey-description__read-more"></label>
+</section>
 
       <footer className="footer">
         <img src={RocketIcon} alt="Rocket icon" className="footer__icon" />

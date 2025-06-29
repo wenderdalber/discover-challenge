@@ -388,13 +388,12 @@ a {
   color: #e0ff00;
   font-weight: 800;
   padding: 0.5rem 1rem;
-  border-radius: 8px;
+  border-radius: 40px;
   cursor: pointer;
   transition: all 0.3s ease;
 
   &:hover {
-    background: #e0ff00;
-    color: #000;
+    color: rgba(224, 255, 0, 0.4);
   }
   }
 }
@@ -521,3 +520,159 @@ a {
     margin-left: 0.5rem;
   }
 }
+
+.cart-icon {
+  width: 32px;
+  height: 32px;
+  background-image: url('./images/cart.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: background-image 0.3s ease;
+
+  &:hover {
+    background-image: url('./images/cart-hover.svg');
+  }
+}
+.header__link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 1rem;
+  position: relative;
+  transition: color 0.3s ease;
+
+  &:hover {
+    background: linear-gradient(90deg, #EBFF00, #FF70D9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+}
+
+.journey-description__read-more {
+  color: #EBFF00;
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  text-align: left;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.readmore-checkbox {
+  display: none;
+}
+
+.extra-text {
+  display: none;
+}
+
+.readmore-checkbox:checked ~ .journey-description__text .extra-text {
+  display: inline;
+}
+
+.journey-description__read-more {
+  color: #EBFF00;
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 25px;
+
+  &::after {
+    content: 'Read more';
+  }
+}
+
+.readmore-checkbox:checked ~ .journey-description__read-more::after {
+  content: 'Read less';
+}
+
+// @media (max-width: 768px) {
+//   .hero {
+//     flex-direction: column;
+//     align-items: center;
+//     text-align: center;
+//     padding: 2rem 1rem;
+
+//     &__title {
+//       font-size: 2rem;
+//       line-height: 2.5rem;
+//     }
+
+//     &__subtitle {
+//       font-size: 1.1rem;
+//       margin-top: 0.5rem;
+//     }
+
+//     &__button {
+//       margin-top: 1rem;
+//       font-size: 1rem;
+//       padding: 0.8rem 1.5rem;
+//     }
+
+//     img {
+//       margin-top: 2rem;
+//       max-width: 200px;
+//     }
+//   }
+
+//   .offers {
+//     padding: 1rem;
+//     grid-template-columns: 1fr !important;
+//     gap: 1.5rem;
+
+//   @media (max-width: 768px) {
+//     grid-template-columns: 1fr; // 1 coluna para tablets/mobile
+//   }
+
+//     &__card {
+//       width: 100%;
+//       padding: 1rem;
+
+//       h3 {
+//         font-size: 1.4rem;
+//       }
+
+//       p {
+//         font-size: 1rem;
+//       }
+
+//       .button {
+//         margin-top: 1rem;
+//       }
+//     }
+//   }
+
+//   .journey-description {
+//     padding: 1.5rem;
+//     text-align: justify;
+
+//     &__title {
+//       font-size: 1.4rem;
+//     }
+
+//     &__text {
+//       font-size: 1rem;
+//       line-height: 1.6rem;
+//     }
+
+//     &__read-more {
+//       font-size: 1rem;
+//       margin-top: 1rem;
+//       display: inline-block;
+//     }
+//   }
+
+//   footer {
+//     padding: 1rem;
+//     font-size: 0.9rem;
+//     text-align: center;
+//   }
+// }
+
