@@ -3,6 +3,7 @@ import './App.scss';
 import LOGO from './assets/images/LOGO.svg';
 import EARTH_SVG from './images/EARTH.svg';
 import RocketIcon from './images/rocket.svg';
+import CartIcon from './images/cart.svg';
 import { Button } from './components/Button';
 
 function App() {
@@ -22,7 +23,12 @@ function App() {
             <nav className="header__nav">
               <a href="#home" className="header__link">Home</a>
               <a href="#products" className="header__link">Products</a>
-              <a href="#cart" className="header__icon">🛒</a>
+              <a href="#cart" className="header__icon">
+                <img
+            src={CartIcon}
+            alt="Cart Icon"
+            />
+              </a>
             </nav>
           </div>
         </header>
@@ -56,16 +62,16 @@ function App() {
           </div>
 
           <div className="offer-card offer-card--2">
-            <h3 className="offer-card__title">Space is not just stars and planets</h3>
-            <p className="offer-card__description">Go on a space adventure</p>
+            <h3 className="offer-card__title--intermed">Space is not just stars and planets</h3>
+            <p className="offer-card__description--intermed">Go on a space adventure</p>
              <div className="offer-card__button-wrapper">
             <button className="offer-card__button">Learn more</button>
           </div>
           </div>
 
           <div className="offer-card offer-card--3">
-            <h3 className="offer-card__title">For those who dream of stars</h3>
-            <p className="offer-card__description">Our offer: make your dream come true</p>
+            <h3 className="offer-card__title--intermed">For those who dream of stars</h3>
+            <p className="offer-card__description--intermed">Our offer: make your dream come true</p>
              <div className="offer-card__button-wrapper">
             <button className="offer-card__button">Learn more</button>
             </div>

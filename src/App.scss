@@ -319,6 +319,8 @@ a {
 .offers {
   padding: 3rem 2rem;
   background-color: #1d2a5c;
+  width: 1088px;
+  height: 1215px;
 
   &__title {
     font-size: 2rem;
@@ -356,8 +358,24 @@ a {
     max-width: 100%;
   }
 
+    &__title--intermed {
+    font-size: 46px;
+    line-height: 1.2;
+    font-weight: 800;
+    margin: 0;
+    word-break: break-word;
+    white-space: normal;
+    max-width: 100%;
+  }
+
   &__description {
     font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+  }
+
+    &__description--intermed {
+    font-size: 24px;
     margin-bottom: 1.5rem;
     font-weight: 400;
   }
@@ -382,15 +400,19 @@ a {
 }
 
 .offer-card--1 {
+  height: 350px;
   background-image: url('/assets/images/Rectangle_01.svg');
 }
 .offer-card--2 {
+  height: 350px;
   background-image: url('/assets/images/Rectangle_02.svg');
 }
 .offer-card--3 {
+  height: 350px;
   background-image: url('/assets/images/Rectangle_03.svg');
 }
 .offer-card--4 {
+  height: 350px;
   background-image: url('/assets/images/Rectangle_04.svg');
 }
 
@@ -476,7 +498,8 @@ a {
   padding: 2rem 1rem;
 
   &__icon {
-    width: 40px;
+    width: 115px;
+    height: 79px;
     margin-bottom: 0.5rem;
   }
 
