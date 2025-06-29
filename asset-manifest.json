@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/discover-challenge/static/css/main.b53554bd.css",
-    "main.js": "/discover-challenge/static/js/main.0f47c7cd.js",
+    "main.css": "/discover-challenge/static/css/main.86e105b3.css",
+    "main.js": "/discover-challenge/static/js/main.50d40a01.js",
     "static/js/453.ba0a71ca.chunk.js": "/discover-challenge/static/js/453.ba0a71ca.chunk.js",
     "static/media/Rectangle.svg": "/discover-challenge/static/media/Rectangle.8696bcb8b507a6b64bf7.svg",
     "static/media/EARTH.svg": "/discover-challenge/static/media/EARTH.b3a94622810b8bf70c04e2f086a66989.svg",
@@ -11,13 +11,14 @@
     "static/media/Rectangle_01.svg": "/discover-challenge/static/media/Rectangle_01.9e6cf77c96b5cddc68bf.svg",
     "static/media/Rectangle_03.svg": "/discover-challenge/static/media/Rectangle_03.6a2faa4c8dceab33d5cf.svg",
     "static/media/LOGO.svg": "/discover-challenge/static/media/LOGO.f4153131d3955bdfa609912a9f3b5caf.svg",
+    "static/media/cart.svg": "/discover-challenge/static/media/cart.b697889a2021dbe00a30dd5ff69f0034.svg",
     "index.html": "/discover-challenge/index.html",
-    "main.b53554bd.css.map": "/discover-challenge/static/css/main.b53554bd.css.map",
-    "main.0f47c7cd.js.map": "/discover-challenge/static/js/main.0f47c7cd.js.map",
+    "main.86e105b3.css.map": "/discover-challenge/static/css/main.86e105b3.css.map",
+    "main.50d40a01.js.map": "/discover-challenge/static/js/main.50d40a01.js.map",
     "453.ba0a71ca.chunk.js.map": "/discover-challenge/static/js/453.ba0a71ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b53554bd.css",
-    "static/js/main.0f47c7cd.js"
+    "static/css/main.86e105b3.css",
+    "static/js/main.50d40a01.js"
   ]
 }
